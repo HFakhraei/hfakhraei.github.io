@@ -1,17 +1,17 @@
 # Site setings
 name: 'Hossein'
 description: 'Java Developer'
-meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
+meta_description: 'Hossein Fakhraei Weblog.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Hossein Fakhraei. I'm a Java Developer. It’s nice to meet you."
+  greetings: "Hi there! My name is Hossein Fakhraei. I'm a Java Developer and I write my notes here."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://hfakhraei.github.io//
-disqus: 'justgoodthemes'
-mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+production_url: https://hfakhraei.github.io/
+disqus:
+mailchimp_url:
 # Add your GA Tracking Id
 ga_analytics: 
 
@@ -21,17 +21,17 @@ contact_page_description: "Horace theme comes with a contact form built-in. You 
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'justgoodthemes'
-facebook: 'username'
-github: 'justgoodthemes'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
-quora: 'username'
+twitter: 'hfakhraei'
+facebook: 'hfakhraei'
+github: 'hfakhraei'
+codepen: 
+dribbble: 
+medium: 
+instagram: 'hfakhraei'
+pinterest: 
+linkedin: 'hossein-fakhraei-26535731'
+producthunt: 
+quora: 
 
 # Navigation
 navigation:
@@ -39,10 +39,6 @@ navigation:
     url: /
   - text: About
     url: /about
-  - text: Style Guide
-    url: /style-guide
-  - text: Contact Me
-    url: /contact
 
 # Required Plugins
 plugins_dir:
