@@ -18,7 +18,11 @@ I have been playing different roles in my working years, such as Developer, Team
 
 # Work Experience
 1- Telenor 5/2019 - now
-  * **Senior Java Developer**: Member of resource squad, My role is design and implement required micro-services for new Telenor infrastructure. 
+  * **Senior Java Developer**: 
+   * Member of resource squad, My role is design and implement required micro-services for new Telenor infrastructure. 
+   * Create Jenkins pipeline for Isolated Black Box Testing micro-services. To achieve this, I orchestrated micro-services and RabbitMQ and in memory database with Docker-Compose.
+   * Configure micro-services to run in Kubernetes with Kustomize framework.
+   * Create Jenkins pipeline to build Docker images for our micro-services and Deploy them to Kubernetes.
 
 2- Aban Co.  4/2018 – 12/2019
   * **Software Manager**: Helping to marketing team and prepare Proposal for Doxis4 iECM suite.
