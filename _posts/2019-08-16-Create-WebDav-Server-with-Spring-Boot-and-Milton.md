@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Create WebDav Server with Spring-Boot and Milton"
-tags: [ Tips ]
+tags: [ WebDav, Spring-Boot, Milton ]
 featured_image_thumbnail:
-featured_image: assets/images/posts/2018/12.jpg
+featured_image: assets/images/posts/2018/3.jpg
+featured: true
+hidden: true
 ---
 Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that allows clients to perform remote Web content authoring operations. The WebDAV protocol provides a framework for users to create, change and move documents on a server. [(Wikipedia)](https://en.wikipedia.org/wiki/WebDAV)
 
@@ -11,29 +13,29 @@ Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hyperte
 
 First of all, create Maven project and add Milton and spring-boot-starter-web dependencies. Because of Milton dependency is not available in Maven global repository, We have to add Milton repository in pom file too.
 
-```
-<repositories>
-    <repository>
-        <id>milton-repo</id>
-        <url>http://dl.bintray.com/milton/Milton</url>
-    </repository>
-</repositories>
-<dependencies>
-    <dependency>
-        <groupId>io.milton</groupId>
-        <artifactId>milton-server-ce</artifactId>
-        <version>2.7.2.4</version>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-</dependencies>
-```
+<pre><code class="language-markup">
+&lt;repositories&gt;
+    &lt;repository&gt;
+        &lt;id&gt;milton-repo&lt;/id&gt;
+        &lt;url&gt;http://dl.bintray.com/milton/Milton&lt;/url&gt;
+    &lt;/repository&gt;
+&lt;/repositories&gt;
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;io.milton&lt;/groupId&gt;
+        &lt;artifactId&gt;milton-server-ce&lt;/artifactId&gt;
+        &lt;version&gt;2.7.2.4&lt;/version&gt;
+    &lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
+</code></pre>
 
 In Spring-Boot we can use classic XML or Annotation model to configure are Beans. In this project I used Annotation, so add SpringBeanConfig.java as below to configure Milton.
 
-```java
+<pre><code class="language-java">
 @Configuration
 public class SpringBeanConfig {
  
@@ -56,13 +58,15 @@ public class SpringBeanConfig {
         return new MiltonFilter();
     }
 }
-```
+</code></pre>
+
 
 As you see in this code, Two parameters have to be configured in Milton.  First on is “resource.factory.class”, that set to “AnnotationResourceFactory”. This parameter tells Milton that we want to use Annotation configuration. Second one is “controllerPackagesToScan”, that define package that Milton have to search to find Controller classes.
 
 Now project structure is ready and we have to add one Controller class to accept and process requests, so add “HelloWorldController.java” to the project.
 
-```java
+<pre><code class="language-java">
+@ResourceController
 public class HelloWorldController {
     private static Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
     private static HashMap&lt;String, WebDavFile> webDavFiles = new HashMap&lt;>();
@@ -141,7 +145,8 @@ public class HelloWorldController {
     }
  
 }
-```
+</code></pre>
+
 
 In this class, with Milton Annotation, I defined some of main functionality of WebDav server, such as, Fetch list of file and folders, Fetch content of file, Change content of file.
 
