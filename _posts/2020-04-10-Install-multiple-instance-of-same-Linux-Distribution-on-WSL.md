@@ -14,7 +14,7 @@ To solve this issue we must follow one of these ways:
 - Download Linux Distribution Package from Windows Store and try to Import it as a different instance of WSL.
 In this tutorial, I am following a second way to install a new instance of Linux on WSL.
 
-###### Download Linux Distribution
+### Download Linux Distribution
 Download prefer Distribution of Linux from Microsoft website.     
 - [Ubuntu 18.04](https://aka.ms/wsl-ubuntu-1804)
 - [Ubuntu 18.04 ARM](https://aka.ms/wsl-ubuntu-1804-arm)
@@ -25,11 +25,11 @@ Download prefer Distribution of Linux from Microsoft website.
 - [SUSE Linux Enterprise Server 12](https://aka.ms/wsl-sles-12)
 - [Fedora Remix for WSL](https://github.com/WhitewaterFoundry/WSLFedoraRemix/releases/)
 
-###### Extract Linux Distribution
+### Extract Linux Distribution
 Extension of the downloaded file is APPX but you can extract it with [7Zip](https://www.7-zip.org/).
 Try to extract it to a folder with the same name.
 
-###### Install new Instance of Linux in WSL
+### Install new Instance of Linux in WSL
 In an extracted folder you will find file **install.tar.gz**.
 The only step left is to import this file as a new instance of Linux in WSL.
 A WSL command contain 4 parts to import new instance:
@@ -45,11 +45,11 @@ for example
  wsl --import Ubuntu-18.04_New C:\WSL\Data\Ubuntu-18.04-New C:\Downloads\Ubuntu18.04\install.tar.gz
 </code></pre>
 
-###### View list of available instance
+### View list of available instance
 If you run the following command, you can see Ubuntu-18.04_New added as an available WSL instance.
 <pre><code class="language-markup"> wsl --list </code></pre>
 
-###### Run a imported instance and add Sudoer user
+### Run a imported instance and add Sudoer user
 When for the first time, you run an instance you will see your login with root user.
 <pre><code class="language-markup"> wsl --distribution Ubuntu-18.04_New </code></pre>
 
@@ -60,6 +60,6 @@ following commands to create a new user and add it to the Sudoer group.
  usermod -aG sudo testUser 
 </code></pre>
   
-###### Run a imported instance with testUser
+### Run a imported instance with testUser
 <pre><code class="language-markup"> wsl --distribution Ubuntu-18.04_New --user testUser</code></pre>
 
