@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Hossein Fakhraei. I'm a Java Developer and I write my notes here."
+  greetings: "Hi there! My name is Hossein Fakhraei. I'm a Java Developer and I am writing my notes here. I hope my notes be useful for everyone"
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://hfakhraei.github.io/
