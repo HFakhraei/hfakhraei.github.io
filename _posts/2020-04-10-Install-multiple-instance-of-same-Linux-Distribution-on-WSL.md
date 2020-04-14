@@ -2,8 +2,8 @@
 layout: post
 title:  "Install multiple instance of same Linux Distribution on WSL"
 tags: [ WSL, Linux, Windows 10 ]
-featured_image_thumbnail: assets/images/posts/2020/Ubutntu-on-Windows-10.jpg
-featured_image: assets/images/posts/2020/Ubutntu-on-Windows-10.jpg
+featured_image_thumbnail: assets/images/posts/2020/2020-04-10/Ubutntu-on-Windows-10.jpg
+featured_image: assets/images/posts/2020/2020-04-10/Ubutntu-on-Windows-10.jpg
 featured: true
 hidden: true
 ---
