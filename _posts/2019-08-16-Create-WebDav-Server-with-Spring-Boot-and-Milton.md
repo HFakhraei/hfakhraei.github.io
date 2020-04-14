@@ -4,8 +4,8 @@ title:  "Create WebDav Server with Spring-Boot and Milton"
 tags: [ WebDav, Spring-Boot, Milton ]
 featured_image_thumbnail: assets/images/posts/2018/3.jpg
 featured_image: assets/images/posts/2018/3.jpg
-featured: false
-hidden: false
+featured: true
+hidden: true
 ---
 Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that allows clients to perform remote Web content authoring operations. The WebDAV protocol provides a framework for users to create, change and move documents on a server. [(Wikipedia)](https://en.wikipedia.org/wiki/WebDAV)
 
