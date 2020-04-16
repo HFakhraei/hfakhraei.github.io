@@ -13,7 +13,7 @@ By default, bash prompt is like this.
 
 {% include image-caption.html imageurl="/assets/images/posts/2020/2020-04-14/Bash-Prompt.jpg" caption="Normal bash prompt" %}
 
-To include Git branch name in bash prompt you need to edit **.bashrc** file in user home directory and add a these lines. 
+To include Git branch name in bash prompt you need to edit **.bashrc** file in user home directory and add these lines. 
 
 <pre><code class="language-java"> git_branch() {
    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
