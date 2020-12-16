@@ -46,6 +46,7 @@ kubectl get pods --selector env!=production
 kubectl get pods --selector env=production,group=finance
 kubectl get pods --selector 'release-version in (1.0,1.2)'
 kubectl get pods --selector 'release-version not in (1.0,1.2)'
+kubectl get pods --field-selector status.phase=Failed
 ```
 **Tag Resources with labels**
 ```
