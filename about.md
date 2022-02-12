@@ -19,7 +19,7 @@ I have been playing different roles in my working years, such as Developer, Team
 # Work Experience
 1- Telenor 5/2019 - now
   * **Senior Java Developer**: 
-    * M1- Member of design & development team of automated acceptance test platform to improve quality and reliability of software before deployment to production.
+    * Member of design & development team of automated acceptance test platform to improve quality and reliability of software before deployment to production.
     * Designed & developed the backend micro-services with Java, Spring Boot and Oracle DB.
     * Developed CI/CD pipeline with Jenkin to automate building & deploying microservices to Kubernetes platform.
     * Refactored old services to improve performance by replacing pulling patterns with event-driven with help of RabbitMQ and in-memory caching.
