@@ -4,7 +4,7 @@ title: About
 featured_image: /assets/images/pages/about.jpg
 ---
 
-I am Hossein Fakhraei and I am a software engineer with a solid technical background of 15 years, well suited to handle design, development as well as pre-study and technical management in complex software development projects. 
+I am Hossein Fakhraei and I am a software engineer with a strong technical background of over 15 years, well suited to design & develop microservices for enterprise applications.
 
 I have expert knowledge of backend **Java** solutions and distributed software development. I have experience in several sectors, but my greatest strengths lie in the areas of payment switch and banking. 
 
@@ -19,17 +19,17 @@ I have been playing different roles in my working years, such as Developer, Team
 # Work Experience
 1- Telenor 5/2019 - now
   * **Senior Java Developer**: 
-    * Member of resource squad, My role is design and implement required micro-services for new Telenor infrastructure. 
-    * Create Jenkins pipeline for Isolated Black Box Testing micro-services. To achieve this, I orchestrated micro-services and RabbitMQ and in memory database with Docker-Compose.
-    * Configure micro-services to run in Kubernetes with Kustomize framework.
-    * Create Jenkins pipeline to build Docker images for our micro-services and Deploy them to Kubernetes.
+    * M1- Member of design & development team of automated acceptance test platform to improve quality and reliability of software before deployment to production.
+    * Designed & developed the backend micro-services with Java, Spring Boot and Oracle DB.
+    * Developed CI/CD pipeline with Jenkin to automate building & deploying microservices to Kubernetes platform.
+    * Refactored old services to improve performance by replacing pulling patterns with event-driven with help of RabbitMQ and in-memory caching.
 
 2- Aban Co.  4/2018 – 12/2019
-  * **Software Manager**: Helping to marketing team and prepare Proposal for Doxis4 iECM suite.
-  * **Senior Software Engineer**: Design & implement application to manage computer files, and transfer files to archive storage based on define policies with Java and Spring Boot.
+  * **Software Manager**: Member of marketing team to present "Doxis4 iECM suite (Document Management System)".
+  * **Senior Software Engineer**: Designed & developed distributed archiving application to manage computer files and transfer them to archive storage based on predefined policies with Java and Spring Boot.
 
 3- Digikala Co.  1/2018 – 3/2018
-  * Consulting to Digikala development staff to prepare new development environment base on Docker.
+  * As a consultant, collaborate with the development team to prepare a new containerized environment with Docker.
 
 4- Caspian computer application service provider Co. 7/2006 – 12/2017
   * **Product Owner**: Drive product development across teams (primarily Engineering, Operations, Product Management, Business Development) through business requirements, design, implementation, and release for Lotus Modern Banking. Identify and resolve strategic issues to help the team meet strategic, financial, and technical goals.
