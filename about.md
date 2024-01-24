@@ -17,21 +17,31 @@ I have been playing different roles in my working years, such as Developer, Team
 * 2 Years degree in Computer Application at DPI college (Member of ministry of science and information technology)
 
 # Work Experience
-1- Telenor 5/2019 - now
+1- REPAY 6/2022 - now
+  * **Senior Java Developer**: 
+    * Migrated some of the old Spring Framework applications to Spring Boot.
+    * Developed a new OAuth2 Authentication Server using Spring Boot.
+    * Integrated Spring Boot applications with OAuth2 to support both OAuth2 and Basic Authentication.
+    * Designed an application to convert different structured files, such as Excel, Fixed-Length Files, Delimited Files, JSON, and XML, through configuration.
+    * Created Terraform deployment configurations for deploying new services on AWS.
+    * Developed Terraform modules to facilitate the deployment of various AWS Lambda functions.
+    * Collaborated with other team members to develop new software functionalities, contributing to the enhancement and expansion of the overall system.
+
+2- Telenor 5/2019 – 5/2022
   * **Senior Java Developer**: 
     * M1- Member of design & development team of automated acceptance test platform to improve quality and reliability of software before deployment to production.
     * Designed & developed the backend micro-services with Java, Spring Boot and Oracle DB.
     * Developed CI/CD pipeline with Jenkin to automate building & deploying microservices to Kubernetes platform.
     * Refactored old services to improve performance by replacing pulling patterns with event-driven with help of RabbitMQ and in-memory caching.
 
-2- Aban Co.  4/2018 – 12/2019
+3- Aban Co.  4/2018 – 12/2019
   * **Software Manager**: Member of marketing team to present "Doxis4 iECM suite (Document Management System)".
   * **Senior Software Engineer**: Designed & developed distributed archiving application to manage computer files and transfer them to archive storage based on predefined policies with Java and Spring Boot.
 
-3- Digikala Co.  1/2018 – 3/2018
+4- Digikala Co.  1/2018 – 3/2018
   * As a consultant, collaborate with the development team to prepare a new containerized environment with Docker.
 
-4- Caspian computer application service provider Co. 7/2006 – 12/2017
+5- Caspian computer application service provider Co. 7/2006 – 12/2017
   * **Product Owner**: Drive product development across teams (primarily Engineering, Operations, Product Management, Business Development) through business requirements, design, implementation, and release for Lotus Modern Banking. Identify and resolve strategic issues to help the team meet strategic, financial, and technical goals.
   * **Project Manager**: Manage team develops and maintenance Lotus modern banking systems (Issuing Card, Banking Switch, ATM, Channel Manager, Internet Bank, Telephone Bank, Mobile Bank).
   * **Senior Solution Architect**: Design Lotus Banking ATM monitoring back office with UML as modeling Tools.
@@ -47,25 +57,32 @@ I have been playing different roles in my working years, such as Developer, Team
   * **Solution Architect and Developer**: Designed and implemented required services for Parsian bank clean payment and Trade invocation (Misys TI) in HP-UNIX environment with C++ and PL-SQL and Bea Tuxedo solution.
   * **Solution Architect**: Member of Parsian total solution architecture team
 
-5- Yaas systems engineering’s Co. from 5/2002 to 8/2005
+6- Yaas systems engineering’s Co. from 5/2002 to 8/2005
   * **Developer**: Designed and developed mechanized system for Iranian ministry of road and transportation based on Visual Basic 6 and SQL server 2000.
   * **Researcher**: Contributed to review and study RFP’s (Request for Proposal) for PM (Preventive Maintenance) & GIS (Global Information System) for IKH international Airport.
   * **Developer**: Contributed to design treasury system software for Iranian ministry of economic affairs and finance with RUP as methodology and UML as modeling language.
   * **Developer**: Designed and developed treasury system software for Iranian ministry of economic affairs and finance with C# as programming language and SQL Server 2000 as database. This system implement in 3-Tiers and 5-Layers with COM+ and Remoting technology capability.
   * **Developer**: Designed and implemented judicatory complaint process system software for Iranian Judicatory with C# as programming language and SQL Server 2000 as database. This system implement in 3-Tiers and 5-Layers with COM+ and Remoting technology capability.
 
-6- Aria Computer Industrial Co. from 2/2001 to 5/2002
+7- Aria Computer Industrial Co. from 2/2001 to 5/2002
 
   * **Developer**: Analyzed, designed and implemented Inventory & Financial system software for “green crescent of Iran Company” with SSADM as methodology and visual basic 6 as programming language with SQL Server 2000 as database.
   * **Technician**: Designed and implemented LAN network for “Tarh-e-Sanat Company”.
 
-7- Data Processing of Iran (Previous IBM) Co. from 7/2000 to 4/2001
+8- Data Processing of Iran (Previous IBM) Co. from 7/2000 to 4/2001
   * **Developer**: Designed and implemented “Worker Welfare Bank internet banking” (testing system) with COBOL and CICS technology.
   * Programmer: Member of programming team in “Worker Welfare core banking system” that implement with COBOL and CICS in server side and Visual Basic 6 in Client side.
   * **Developer**: Contributed in programming “Tejarat core banking system” software that implemented with COBOL and CICS in server side and Visual Basic 6 in Client side.
 
 # Skills and Qualifications
-* Java
+* Java 11+
+* AWS
+  * AWS EC2
+  * AWS Lambda
+  * AWS RDS
+  * AWS System Manager
+  * AWS Secret Manager
+  * ...  
 * Spring Framework    
   * Spring Cloud
   * Spring Boot
@@ -74,6 +91,7 @@ I have been playing different roles in my working years, such as Developer, Team
   * ...
 * Hibernate 
 * Oracle PL/SQL
+* MySQL
 * Docker
 * Jenkins
 * Kubernetes 	
