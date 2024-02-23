@@ -4,8 +4,8 @@ title:  "Add git branch name to Ubuntu bash prompt"
 tags: [ Git, Linux, WSL ]
 featured_image_thumbnail: /assets/images/posts/2020/2020-04-14/Ubuntu-Git-Github.jpg
 featured_image: /assets/images/posts/2020/2020-04-14/Ubuntu-Git-Github.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 If you are working mostly in linux terminal and working with Git, you know that, how usefull having **Git branch name**
 in bash prompt. 

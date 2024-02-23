@@ -4,8 +4,8 @@ title:  "Install multiple instance of same Linux Distribution on WSL"
 tags: [ WSL, Linux, Windows 10 ]
 featured_image_thumbnail: assets/images/posts/2020/2020-04-10/Ubutntu-on-Windows-10.jpg
 featured_image: assets/images/posts/2020/2020-04-10/Ubutntu-on-Windows-10.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 There are lots of cases that we need a different instance of Ubuntu with the different configuration on WSL, 
 but by default, we could install one instance of each Linux Distribution on WSL via Microsoft store.
