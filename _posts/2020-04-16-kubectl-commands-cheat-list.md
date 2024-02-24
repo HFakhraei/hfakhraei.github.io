@@ -4,8 +4,6 @@ title:  "Kubernetes, Cheat List"
 tags: [ Git, Linux, WSL ]
 featured_image_thumbnail: /assets/images/posts/2020/2020-04-16/kubernetes.jpg
 featured_image: /assets/images/posts/2020/2020-04-16/kubernetes.jpg
-featured: false
-hidden: false
 ---
 This is a list of useful kubernetes command, that I used mostly. I hope this list be useful for you too.
 
