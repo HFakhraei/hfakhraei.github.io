@@ -1,6 +1,11 @@
 .idea
 .vscode
+.claude
 _site
 .DS_Store
 *.swp
 .sass-cache
+.jekyll*
+Gemfile.lock
+vendor/
+.bundle

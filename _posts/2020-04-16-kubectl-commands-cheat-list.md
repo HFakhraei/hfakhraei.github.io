@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Kubernetes, Cheat List"
-tags: [ Git, Linux, WSL ]
+title:  "Kubernetes kubectl Commands Cheat Sheet"
+tags: [ Kubernetes, kubectl, DevOps, Docker ]
 featured_image_thumbnail: /assets/images/posts/2020/2020-04-16/kubernetes.jpg
 featured_image: /assets/images/posts/2020/2020-04-16/kubernetes.jpg
 featured: true
 hidden: true
 ---
-This is a list of useful kubernetes command, that I used mostly. I hope this list be useful for you too.
+This is a collection of useful Kubernetes `kubectl` commands that I use regularly. I hope this cheat sheet will be helpful for you too.
 
 **Deploy Docker image in Kubernetes**
 ```
@@ -27,7 +27,8 @@ kubectl get rs
 **Get list of pods**
 ```
 kubectl get pods
-kubectl get pods --show-all (List of pods in all namespaces)
+kubectl get pods --all-namespaces    # List pods in all namespaces
+kubectl get pods -A                   # Short form for all namespaces
 ```
 **Get list of services**
 ```
@@ -82,8 +83,8 @@ kubectl logs hw-hdklajh555
 ```
 **Execute command in a container**
 ```
-kubectl exec -it hw-hdklajh555 /bin/bash 	    (pod with single container)
-kubectl exec -it hw-hdklajh555 -c hw /bin/bash 	(pod with multi container)  
+kubectl exec -it hw-hdklajh555 /bin/bash           # Pod with single container
+kubectl exec -it hw-hdklajh555 -c hw /bin/bash     # Pod with multiple containers
 ```
 **Manage Config Map**
 ```
