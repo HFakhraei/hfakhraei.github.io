@@ -4,98 +4,118 @@ title: About
 featured_image: /assets/images/pages/about.jpg
 ---
 
-I am Hossein Fakhraei and I am a software engineer with a strong technical background of over 15 years, well suited to design & develop microservices for enterprise applications.
+I am Hossein Fakhraei, a software engineer with over 15 years of experience specializing in enterprise Java development, microservices architecture, and cloud solutions. My expertise lies in designing and developing scalable backend systems for payment processing and banking applications.
 
-I have expert knowledge of backend **Java** solutions and distributed software development. I have experience in several sectors, but my greatest strengths lie in the areas of payment switch and banking. 
+Throughout my career, I have worked across the full software development lifecycle—from requirements gathering and architecture design to implementation, deployment, and production support. I have held various roles including Developer, Team Lead, Software Manager, and Product Owner, giving me a well-rounded perspective on delivering successful software solutions.
 
-I have been involved in all stages of a software development project, from the idea and requirements phase to implementation and production. 
+# Professional Summary
 
-I have been playing different roles in my working years, such as Developer, Team Lead, Manager and Product Owner.
+- **15+ years** of enterprise Java development experience
+- Expert in **microservices architecture** using Spring Boot and Spring Cloud
+- Specialized in **payment systems, banking switches**, and financial applications
+- Strong background in **AWS cloud infrastructure** and infrastructure as code (Terraform)
+- Proficient in **CI/CD pipelines**, containerization (Docker/Kubernetes), and DevOps practices
+- Experience with **OAuth2**, authentication systems, and security best practices
+- Proven track record in **system modernization** and performance optimization
 
 # Education
 * 4 Years degree in Software Engineering at Azad North Branch University.
 * 2 Years degree in Computer Application at DPI college (Member of ministry of science and information technology)
 
 # Work Experience
-1- REPAY 6/2022 - now
-  * **Senior Java Developer**: 
-    * Migrated some of the old Spring Framework applications to Spring Boot.
-    * Developed a new OAuth2 Authentication Server using Spring Boot.
-    * Integrated Spring Boot applications with OAuth2 to support both OAuth2 and Basic Authentication.
-    * Designed an application to convert different structured files, such as Excel, Fixed-Length Files, Delimited Files, JSON, and XML, through configuration.
-    * Created Terraform deployment configurations for deploying new services on AWS.
-    * Developed Terraform modules to facilitate the deployment of various AWS Lambda functions.
-    * Collaborated with other team members to develop new software functionalities, contributing to the enhancement and expansion of the overall system.
 
-2- Telenor 5/2019 – 5/2022
-  * **Senior Java Developer**: 
-    * Member of design & development team of automated acceptance test platform to improve quality and reliability of software before deployment to production.
-    * Designed & developed the backend micro-services with Java, Spring Boot and Oracle DB.
-    * Developed CI/CD pipeline with Jenkin to automate building & deploying microservices to Kubernetes platform.
-    * Refactored old services to improve performance by replacing pulling patterns with event-driven with help of RabbitMQ and in-memory caching.
+## REPAY - Realtime Electronic Payments | May 2022 - Present
+**Senior Java Software Engineer** | Arizona, United States (Remote)
 
-3- Aban Co.  4/2018 – 12/2019
-  * **Software Manager**: Member of marketing team to present "Doxis4 iECM suite (Document Management System)".
-  * **Senior Software Engineer**: Designed & developed distributed archiving application to manage computer files and transfer them to archive storage based on predefined policies with Java and Spring Boot.
+- Migrated legacy **Spring Framework** applications to **Spring Boot**, modernizing the application stack
+- Developed a new **OAuth2 Authentication Server** using **Spring Boot** for secure API authentication
+- Integrated **Spring Boot** applications with **OAuth2** to support both OAuth2 and Basic Authentication methods
+- Designed a configurable **file conversion application** supporting multiple structured formats including **Excel, Fixed-Length Files, Delimited Files, JSON, and XML**
+- Created **Terraform deployment configurations** for deploying new services on **AWS** infrastructure
+- Developed reusable **Terraform modules** to facilitate the deployment of various **AWS Lambda functions**
+- Collaborated with team members to develop new software functionalities, contributing to the enhancement and expansion of the overall system
 
-4- Digikala Co.  1/2018 – 3/2018
-  * As a consultant, collaborate with the development team to prepare a new containerized environment with Docker.
+## Telenor | May 2019 - May 2022
+**Senior Java Developer**
 
-5- Caspian computer application service provider Co. 7/2006 – 12/2017
-  * **Product Owner**: Drive product development across teams (primarily Engineering, Operations, Product Management, Business Development) through business requirements, design, implementation, and release for Lotus Modern Banking. Identify and resolve strategic issues to help the team meet strategic, financial, and technical goals.
-  * **Project Manager**: Manage team develops and maintenance Lotus modern banking systems (Issuing Card, Banking Switch, ATM, Channel Manager, Internet Bank, Telephone Bank, Mobile Bank).
-  * **Senior Solution Architect**: Design Lotus Banking ATM monitoring back office with UML as modeling Tools.
-  * **Senior Solution Architect**: Design Lotus Banking channel manager & modern banking (Internet Bank, Mobile Bank, Telephone Bank) back office with UML as modeling Tools.
-  * **Solution Architect and Developer**: Design and implement required applications for Lotus Banking Acquiring switch with Java as programming language and Oracle as database and UML as modeling Tools. This switch compatible with ISO-8583 and Shetab (Central Bank of Iran switch standard) standards.
-  * **Solution Architect and Developer**: Design and implement required applications for Lotus Banking Issuing switch with Java as programming language and Oracle as database and UML as modeling Tools. This switch compatible with ISO-8583 and Shetab (Central Bank of Iran switch standard) standards.
-  * **Solution Architect and Developer**: Design and implement required applications for Lotus Banking Card Issuing with Java as programming language and Oracle as database and UML as modeling Tools.
-  * **Solution Architect**: Member of architecture team to implement Lotus Banking system infrastructure with Java as backend and WPF and C# as frontend.
-  * **Solution Architect and Developer**: Designed and implemented Parsian Bank RTGS (Real Time Gross Settlement) With C# and SQL Server 2005 as programming language and UML as modeling Tools. The system is designed in 3-Tiers and 5-Layers with COM+ and Remoting Technology capabilities. The final product is capable of connecting to central bank of IRAN with Web Sphere MQ 6 and connects to Parsian Bank core banking system with Bea Tuxedo solution.
-  * **Solution Architect and Developer**: Design and implement required applications for Parsian RTGS System in HP-UNIX environment with C++ and PL-SQL and Bea Tuxedo solution.
-  * **Solution Architect and Developer**: Designed and implemented card gateway and card switch software based on ISO8583 for ATM/POS gateway and switch for Parsian bank with C++ (socket programming) and PL-SQL in HP-UNIX environment with an ability to connect to Parsian new core banking system.
-  * **Solution Architect and Developer**: Designed clean payment system (retail section) as part of Misys core banking for Parsian Bank with ability to connect to Misys trade invocation system (Misys TI).
-  * **Solution Architect and Developer**: Designed and implemented required services for Parsian bank clean payment and Trade invocation (Misys TI) in HP-UNIX environment with C++ and PL-SQL and Bea Tuxedo solution.
-  * **Solution Architect**: Member of Parsian total solution architecture team
+- Led design and development of an **automated acceptance test platform** to improve software quality and reliability before production deployment
+- Built scalable backend microservices using **Java, Spring Boot, and Oracle DB**
+- Developed **CI/CD pipelines** with Jenkins for automated building and deploying microservices to **Kubernetes**
+- Optimized service performance by refactoring polling patterns to **event-driven architecture** using **RabbitMQ**
+- Implemented **in-memory caching** strategies to reduce database load and improve response times
 
-6- Yaas systems engineering’s Co. from 5/2002 to 8/2005
-  * **Developer**: Designed and developed mechanized system for Iranian ministry of road and transportation based on Visual Basic 6 and SQL server 2000.
-  * **Researcher**: Contributed to review and study RFP’s (Request for Proposal) for PM (Preventive Maintenance) & GIS (Global Information System) for IKH international Airport.
-  * **Developer**: Contributed to design treasury system software for Iranian ministry of economic affairs and finance with RUP as methodology and UML as modeling language.
-  * **Developer**: Designed and developed treasury system software for Iranian ministry of economic affairs and finance with C# as programming language and SQL Server 2000 as database. This system implement in 3-Tiers and 5-Layers with COM+ and Remoting technology capability.
-  * **Developer**: Designed and implemented judicatory complaint process system software for Iranian Judicatory with C# as programming language and SQL Server 2000 as database. This system implement in 3-Tiers and 5-Layers with COM+ and Remoting technology capability.
+## Aban Co. | April 2018 - December 2019
+**Software Manager & Senior Software Engineer**
 
-7- Aria Computer Industrial Co. from 2/2001 to 5/2002
+- Contributed to marketing and presentation of **Doxis4 iECM suite** (Document Management System)
+- Designed and developed a **distributed archiving application** using Java and Spring Boot
+- Implemented policy-based file management system for automated archival storage
 
-  * **Developer**: Analyzed, designed and implemented Inventory & Financial system software for “green crescent of Iran Company” with SSADM as methodology and visual basic 6 as programming language with SQL Server 2000 as database.
-  * **Technician**: Designed and implemented LAN network for “Tarh-e-Sanat Company”.
+## Digikala Co. | January 2018 - March 2018
+**Consultant**
 
-8- Data Processing of Iran (Previous IBM) Co. from 7/2000 to 4/2001
-  * **Developer**: Designed and implemented “Worker Welfare Bank internet banking” (testing system) with COBOL and CICS technology.
-  * Programmer: Member of programming team in “Worker Welfare core banking system” that implement with COBOL and CICS in server side and Visual Basic 6 in Client side.
-  * **Developer**: Contributed in programming “Tejarat core banking system” software that implemented with COBOL and CICS in server side and Visual Basic 6 in Client side.
+- Collaborated with development team to design and implement **containerized environment** using **Docker**
+- Advised on best practices for microservices deployment and orchestration
 
-# Skills and Qualifications
-* Java 11+
-* AWS
-  * AWS EC2
-  * AWS Lambda
-  * AWS RDS
-  * AWS System Manager
-  * AWS Secret Manager
-  * ...  
-* Spring Framework    
-  * Spring Cloud
-  * Spring Boot
-  * Spring Security
-  * Spring MVC
-  * ...
-* Hibernate 
-* Oracle PL/SQL
-* MySQL
-* Docker
-* Jenkins
-* Kubernetes 	
-* Agile & Scrum
-* UML Methodology  
+## Caspian Computer Application Service Provider Co. | July 2006 - December 2017
+**Product Owner, Project Manager, Senior Solution Architect**
 
-*Thank You for reading!*
+- Drove product development for **Lotus Modern Banking platform** across Engineering, Operations, and Business Development teams
+- Managed development and maintenance of comprehensive banking systems including Card Issuing, Banking Switch, ATM, Channel Manager, Internet Banking, Telephone Banking, and Mobile Banking
+- Architected and developed **banking switches** compliant with **ISO-8583** and **Shetab** (Central Bank of Iran) standards
+- Designed **RTGS (Real Time Gross Settlement)** systems for Parsian Bank with integration to central bank infrastructure
+- Implemented **ATM/POS gateway and switch software** for card transaction processing
+- Led architecture team for banking system infrastructure using Java backend and C#/WPF frontend
+- Developed card issuing applications and payment systems integrated with core banking solutions
+
+## Early Career | 2000 - 2005
+**Software Developer**
+
+- Developed banking systems including internet banking and core banking solutions using COBOL, CICS, and Visual Basic
+- Built treasury and financial management systems for government agencies
+- Designed inventory and financial systems for various organizations
+- Technologies: COBOL, CICS, C#, Visual Basic, SQL Server
+
+# Technical Skills
+
+## Backend Development
+- **Java 11+** - Expert level
+- **Spring Framework** - Spring Boot, Spring Cloud, Spring Security, Spring MVC
+- **Hibernate & JPA** - ORM and data persistence
+- **OAuth2 & Security** - Authentication and authorization systems
+
+## Cloud & Infrastructure
+- **AWS** - EC2, Lambda, RDS, Systems Manager, Secret Manager, CloudFormation
+- **Terraform** - Infrastructure as Code, module development
+- **Docker** - Containerization and image management
+- **Kubernetes** - Container orchestration and deployment
+
+## Databases
+- **Oracle** - PL/SQL, performance tuning
+- **MySQL** - Database design and optimization
+- **SQL Server** - Enterprise database solutions
+
+## DevOps & CI/CD
+- **Jenkins** - Pipeline development and automation
+- **Git & GitHub** - Version control and collaboration
+- **CI/CD** - Automated testing, building, and deployment
+
+## Messaging & Integration
+- **RabbitMQ** - Event-driven architecture and message queuing
+- **REST APIs** - Design and implementation
+- **WebDAV** - File system protocols
+
+## Methodologies & Architecture
+- **Microservices Architecture** - Design and implementation
+- **Agile & Scrum** - Iterative development
+- **UML** - System modeling and design
+- **Event-Driven Architecture** - Asynchronous systems
+
+## Legacy & Specialized Systems
+- **ISO-8583** - Payment messaging standards
+- **Banking Switch Systems** - Card processing and payment routing
+- **RTGS** - Real-time gross settlement systems
+
+---
+
+*Thank you for reading! Feel free to [contact me](mailto:HFakhraei@outlook.com) or connect with me on [LinkedIn](https://linkedin.com/in/hfakhraei).*

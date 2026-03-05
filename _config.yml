@@ -1,52 +1,60 @@
-# Site setings
+# Site settings
+title: 'Hossein Fakhraei - Java Developer Blog'
 name: 'Hossein'
-description: 'Java Developer'
-meta_description: 'Hossein Fakhraei Weblog.'
+description: 'Senior Java Software Engineer | Spring Boot, AWS, Microservices, Kubernetes'
+meta_description: 'Technical blog by Hossein Fakhraei covering Java development, Spring Boot, microservices, AWS, Kubernetes, and software engineering best practices.'
 logo:
-# Author image is used in site sidebar and greetings in the home page hero text
-author:
-  image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Hossein Fakhraei. I'm a Java Developer and I am writing my notes here. I hope my notes be useful for everyone"
 favicon: 'assets/images/favicon.ico'
-baseurl: 
+
+# Author configuration
+author:
+  name: 'Hossein Fakhraei'
+  image: 'authorimage.jpg'
+  greetings: "Hi there! I'm Hossein Fakhraei, a Senior Java Software Engineer with 15+ years of experience. I specialize in Spring Boot, microservices, AWS, and enterprise applications. This blog shares my technical notes and solutions."
+  email: HFakhraei@outlook.com
+  location: 'Arizona, United States'
+
+# URL settings
+baseurl: ''
+url: 'https://hfakhraei.github.io'
 production_url: https://hfakhraei.github.io/
-disqus:
-mailchimp_url:
-# Add your GA Tracking Id
-ga_analytics: 
+enforce_ssl: hfakhraei.github.io
 
-# Contact form setings
-email: HFakhraei@outlook.com
-contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
-thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
+# Build settings
+encoding: 'utf-8'
+timezone: America/Phoenix
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: java
 
-# Social links
-twitter: 'hfakhraei'
-facebook: 'hfakhraei'
-github: 'hfakhraei'
-codepen: 
-dribbble: 
-medium: 
-instagram: 'hfakhraei'
-pinterest: 
-linkedin: 'hfakhraei'
-producthunt: 
-quora: 
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .bundle/
+  - .jekyll/
+  - .jekyll-cache/
+  - .sass-cache/
+  - README.md
+  - README_DEVELOPMENT.md
+  - SETUP_MAC.md
+  - CONTAINERS_ON_MAC.md
+  - CLAUDE.md
+  - clean.sh
+  - run.sh
+  - run-native.sh
+  - LICENSE
+  - TODO.md
 
-# Navigation
-navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about
-
-# Required Plugins
-plugins_dir:
-  - jekyll-paginate
-  - jekyll-tagsgenerator
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-coffeescript
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Pagination
 paginate: 5
@@ -55,10 +63,54 @@ paginate_path: /page:num/
 # Permalinks
 permalink: /:title
 
-# Other
-markdown: kramdown
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-coffeescript
 
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+
+# Social links (only active ones)
+github: 'hfakhraei'
+linkedin: 'hfakhraei'
+twitter: 'hfakhraei'
+facebook: 'hfakhraei'
+instagram: 'hfakhraei'
+
+# Contact settings
+email: HFakhraei@outlook.com
+contact_page_description: "Feel free to reach out for collaboration, consulting, or technical discussions about Java, Spring Boot, microservices, or cloud architecture."
+thankyou_page_description: "Thank you for your message! I'll get back to you as soon as possible."
+
+# Analytics (add your tracking ID when ready)
+# ga_analytics: 'UA-XXXXXXXXX-X'
+# google_analytics: 'G-XXXXXXXXXX'
+
+# Comments (add your Disqus shortname when ready)
+# disqus: 'your-disqus-shortname'
+
+# Newsletter (add your Mailchimp URL when ready)
+# mailchimp_url: ''
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Hossein Fakhraei"
+      comments: false
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
